@@ -16,82 +16,88 @@
 
 
     <title>Crystal Game</title>
-    
+
 </head>
 
 <body>
-        <div class="jumbotron">
-                <h1 class="text-center">Crystal Collector!!</h1>
+    <div class="jumbotron">
+        <h1 class="text-center">Crystal Collector!!</h1>
+    </div>
+    <div class="container bg-warning">
+        <div class="card bg-primary">
+            <div class="row">
+                <div class="col text-center">
+                    <br>
+                    <p>You will be given a random number at the start of the game.</p>
+                    <br>
+                    <p>There are four crystals here. Each time you play this game the crystals will be assigned a randon
+                        number</p>
+                    <br>
+                    <p>The Computer will state a random number.</p>
+                    <br>
+                    <p>After which you may select the crystals in any order to try and reach this number. If they match
+                        you win, but if you go over you lose!</p>
+                    <br>
+                </div>
             </div>
-            <div class="container bg-warning">
-                <div class="card bg-primary">
-                    <div class="row">
-                        <div class="col text-center">
-                            <br>
-                            <p>You will be given a random number at the start of the game.</p>
-                            <br>
-                            <p>There are four crystals here. Each time you play this game the crystals will be assigned a randon
-                                number</p>
-                            <br>
-                            <p>The Computer will state a random number.</p>
-                            <br>
-                            <p>After which you may select the crystals in any order to try and reach this number. If they match
-                                you win, but if you go over you lose!</p>
-                            <br>
-                        </div>
+            <div class="row">
+                <div class="col-4 card bg-success">
+                    <div id="computer-number" class="text-center">
+                        Space
                     </div>
+                    <hr>
+                    <div id="user-number" class="text-center">
+                        Space
+                    </div>
+                </div>
+                <div class="class card bg-primary col-2 float-left">
+                    <div id="win-loss-count">
+                        <p>Wins: <span id="wincount"></span></p>
+                        <br>
+                        <p>Losses: <span id="losscount"></span></p>
+                    </div>
+                </div>
+                <div class="card col-6">
                     <div class="row">
-                        <div class="col-4 card bg-success">
-                            <div id="computer-number" class="text-center">
-                                Space
-                            </div>
-                            <hr>
-                            <div id="user-number" class="text-center">
-                                Space
+                        <div class="card bg-info col-6 jewels">
+                            <div id="jewel-1">
+                                <img src="assets/images/crystal-1.jpg" id="jewel-1-img">
                             </div>
                         </div>
-                        <div class="class card bg-primary col-2 float-left">
-                            <div id="win-loss-count">
-                                Space
-                            </div>
-                        </div>
-                        <div class="card col-6">
-                            <div class="row">
-                                <div class="card bg-info col-6 jewels">
-                                    <div id="jewel-1">
-                                        <img src="assets/images/crystal-1.jpg" id="jewel-1-img">
-                                    </div>
-                                </div>
-                                <div class="card bg-info col-6 jewels">
-                                    <div id="jewel-2">
-                                        <img src="assets/images/crystal-2.jpg" id="jewel-2-img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="card bg-info col-6 jewels">
-                                    <div id="jewel-3">
-                                        <img src="assets/images/crystal-3.jpg" id="jewel-3-img">
-                                    </div>
-                                </div>
-                                <div class="card bg-info col-6 jewels">
-                                    <div id="jewel-4">
-                                        <img src="assets/images/crystal-4.jpg" id="jewel-4-img">
-                                    </div>
-                                </div>
+                        <div class="card bg-info col-6 jewels">
+                            <div id="jewel-2">
+                                <img src="assets/images/crystal-2.jpg" id="jewel-2-img">
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class=" user-count col bg-warning">
-                            <div id="user-number">
-                                0
+                        <div class="card bg-info col-6 jewels">
+                            <div id="jewel-3">
+                                <img src="assets/images/crystal-3.jpg" id="jewel-3-img">
+                            </div>
+                        </div>
+                        <div class="card bg-info col-6 jewels">
+                            <div id="jewel-4">
+                                <img src="assets/images/crystal-4.jpg" id="jewel-4-img">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class=" user-count col bg-warning">
+                    <div id="user-number">
+                        0
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="assets/javascript/game.js">
+    
+    </script>
 </body>
 
 </html>
