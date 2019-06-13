@@ -50,6 +50,7 @@ console.log(crystal2Value);
 console.log(crystal3Value);
 console.log(crystal4Value);
 $("#computer-number").text("Computer: " + computerNumber);
+$("#user-number").text("Player: " + userNumber);
 
 //These are functions that react based on events that occur after the page load
 //PLAY CHAIN
@@ -101,14 +102,24 @@ function resultDeterminer () {
 function endGameWin () {
     wins++
     $("#wincount").text(wins);
+    resetGame();
 };
 
 function endGameLoss () {
     console.log("You've lost!")
     losses++
     $("#losscount").text(losses);
+    resetGame();
 };
 
-function reset () {
-
+function resetGame () {
+    console.log("The game has been reset!")
+    compNumGenerator();
+    crystal1NumGen();
+    crystal2NumGen();
+    crystal3NumGen();
+    crystal4NumGen();
+    userNumber = 0;
+    $("#computer-number").text("Computer: " + computerNumber);
+    $("#user-number").text("Player: " + userNumber);
 };
