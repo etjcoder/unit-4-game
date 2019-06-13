@@ -1,9 +1,14 @@
 #computer-number {
-    height: 200px;
-    font-size: 24px;
+    height: 50%;
+    font-size: 20px;
     padding: 40px 0px 0px 0px;
 }
 
+#user-number {
+    height: 50%;
+    font-size: 20px;
+    padding: 0px 0px 40px 0px;
+}
 .jewels {
     height: 100px;
     border: 1px;
