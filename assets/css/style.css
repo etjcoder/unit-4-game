@@ -1,0 +1,33 @@
+#computer-number {
+    height: 200px;
+    font-size: 24px;
+    padding: 40px 0px 0px 0px;
+}
+
+.jewels {
+    height: 100px;
+    border: 1px;
+    border-color: teal;
+}
+
+.user-count {
+    height: 50px;
+    padding: 10px 0px 10px 50px;
+}
+
+#jewel-1-img {
+    width: 100%;
+    padding: 0;
+}
+
+#jewel-2-img {
+    width: 100%;
+}
+
+#jewel-3-img {
+    width: 100%;
+}
+
+#jewel-4-img {
+    width: 100%;
+}
