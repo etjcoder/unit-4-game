@@ -4,6 +4,28 @@
     padding: 40px 0px 0px 0px;
 }
 
+.jumbotron{
+    margin-top: 20px;
+    /* background-image: url("http://i.stack.imgur.com/vhoa0.jpg"); */
+    /* background-size: cover; */
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("https://images2.alphacoders.com/103/103560.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #user-number {
     height: 50%;
     font-size: 20px;
@@ -35,4 +57,13 @@
 
 #jewel-4-img {
     width: 100%;
+}
+
+.card {
+    opacity: 1; 
+}
+
+.container {
+    opacity: 1;
+    color: yellow;
 }
